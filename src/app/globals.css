@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --secondary: #6366f1;
+  --accent: #8b5cf6;
+}
+
+body {
+  color: #ffffff;
+  background: #111827;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.hero-gradient {
+  background: linear-gradient(to right, var(--secondary), var(--accent), #9333ea);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.button-primary {
+  @apply px-6 py-3 bg-gradient-to-r from-secondary to-accent text-white rounded-full font-medium
+    transition-all duration-300 hover:shadow-lg hover:shadow-secondary/20 hover:scale-105;
+}
