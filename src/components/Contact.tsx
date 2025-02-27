@@ -50,10 +50,10 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
       setNotification({
         type: "success",
-        message: "Message sent successfully! I'll get back to you soon.",
+        message: "Message sent successfully! I&apos;ll get back to you soon.",
       });
       setFormData({ name: "", email: "", message: "" });
-    } catch (error) {
+    } catch {
       setNotification({
         type: "error",
         message: "Failed to send message. Please try again later.",

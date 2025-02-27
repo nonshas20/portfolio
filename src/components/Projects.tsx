@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
-import { FiGithub, FiExternalLink, FiFolder, FiX } from "react-icons/fi";
+import { FiGithub, FiFolder, FiX } from "react-icons/fi";
 import Image from 'next/image';
 
 const projectsData = [

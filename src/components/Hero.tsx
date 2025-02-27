@@ -81,7 +81,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-lg md:text-xl text-secondary mb-4 font-medium"
         >
-          👋 Hello, I'm
+          👋 Hello, I&apos;m
         </motion.h2>
         
         <motion.h1
